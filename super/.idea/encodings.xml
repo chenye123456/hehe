@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/phone-goods" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/phone-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/phone-pay" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/phone-shopcar" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/phone-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/phone-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/phone-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/phone-web" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,15 @@
+
+
+dubbo:
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1
+  application:
+    name: phone-goods
+  protocol:
+    port: 20881
+
+server:
+  port: 8001
+  servlet:
+    context-path: /goods

@@ -1,0 +1,14 @@
+
+dubbo:
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1
+  application:
+    name: phone-order
+  protocol:
+    port: 20882
+
+server:
+  port: 8002
+  servlet:
+    context-path: /order

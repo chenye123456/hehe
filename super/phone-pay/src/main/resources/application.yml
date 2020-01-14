@@ -1,0 +1,14 @@
+
+dubbo:
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1
+  application:
+    name: phone-pay
+  protocol:
+    port: 20883
+
+server:
+  port: 8003
+  servlet:
+    context-path: /pay

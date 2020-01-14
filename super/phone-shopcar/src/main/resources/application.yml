@@ -1,0 +1,14 @@
+
+dubbo:
+  registry:
+    protocol: zookeeper
+    address: 127.0.0.1
+  application:
+    name: phone-shopcar
+  protocol:
+    port: 20884
+
+server:
+  port: 8004
+  servlet:
+    context-path: /shopcar

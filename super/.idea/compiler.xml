@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="phone-api" />
+        <module name="phone-goods" />
+        <module name="phone-order" />
+        <module name="phone-pay" />
+        <module name="phone-shopcar" />
+        <module name="phone-user" />
+        <module name="phone-web" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="phone-goods" options="-parameters" />
+      <module name="phone-order" options="-parameters" />
+      <module name="phone-pay" options="-parameters" />
+      <module name="phone-shopcar" options="-parameters" />
+      <module name="phone-user" options="" />
+      <module name="phone-web" options="-parameters" />
+    </option>
+  </component>
+</project>
